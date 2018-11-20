@@ -1,0 +1,170 @@
+body {}
+
+header {
+    height: 80px;
+    background-color: #4c5546;
+}
+
+.links {
+    position: absolute;
+
+    width: 65%;
+    margin: 0;
+    padding-left: 8%;
+    background-color: #424d40;
+    padding-right: 0px;
+}
+
+.btn {
+    width: 32%;
+    border-color: black;
+    height: 80px;
+    border-radius: 0px;
+    color: #0e1713;
+    font-size: 25px !important;
+    padding-top: 20px !important;
+    padding-bottom: 25px !important;
+
+}
+
+.btn:hover {
+    width: 32%;
+    border-color: none;
+    height: 80px;
+    box-shadow: none !important;
+    border-radius: 0px;
+    color: #6d7976;
+}
+
+.btn:active {
+    width: 32%;
+    border-color: none;
+    height: 80px;
+    box-shadow: none !important;
+    background-color: #25352c;
+    border-radius: 0px;
+    color: #6d7976;
+}
+
+.btn:focus {
+    width: 32%;
+    border-color: none;
+    height: 80px;
+    box-shadow: none !important;
+    background-color: #25352c;
+    border-radius: 0px;
+
+}
+
+#logIn {
+    position: absolute;
+    right: 2%;
+    top: 13px;
+
+}
+
+section {
+    height: 800px;
+    background: url(../img/back.png) no-repeat center top/cover;
+    padding: 0%;
+
+}
+
+.contain {
+    position: absolute;
+
+    width: 65%;
+    height: 800px;
+    background: url(../img/shadow.png);
+
+
+}
+
+.tabs {
+    width: 76%;
+    position: absolute;
+    top: 100px;
+    height: 80px;
+    left: 13%;
+
+}
+
+.tab {
+    top: 100px;
+    background-color: #a7ae90;
+    color: #53665d;
+    height: 80px;
+
+
+}
+
+.tabstart {
+
+    margin-left: 0%;
+    background: rgba(142, 185, 152, 0.25);
+    color: #0b201b;
+    height: 100px;
+
+}
+
+.tab:focus {
+    background: rgba(142, 185, 152, 0.25);
+    color: #0b201b;
+    height: 100px;
+
+}
+
+.tab:hover {
+    background: rgba(142, 185, 152, 0.25);
+    color: #0b201b;
+    height: 100px;
+
+}
+
+.tab:active {
+    background: rgba(142, 185, 152, 0.25);
+    color: #0b201b;
+    height: 100px;
+}
+
+.main {
+    position: absolute;
+    top: 200px;
+    width: 74%;
+    left: 13%;
+    border-radius: 10px;
+    /*  height: 450px;*/
+    background: rgba(142, 185, 152, 0.25);
+
+    /*     background: url(../img/back-form.png) no-repeat center top/cover;*/
+}
+
+.form {
+    width: 40%;
+    padding: 4%;
+    display: inline-block;
+}
+
+.sub {
+    background-color: #3f6858;
+    margin-bottom: 50px;
+    margin-left: 33%;
+    border-radius: 30px !important;
+    color: #fff;
+
+
+
+}
+
+
+footer {
+
+    background-color: #0f1512;
+    height: 60px;
+}
+
+#tab2,
+#tab3,
+#tab4 {
+    display: none;
+}
